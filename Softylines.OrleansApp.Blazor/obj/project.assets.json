@@ -4495,19 +4495,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/aminenafkha/.nuget/packages/": {}
+    "/Users/zozza/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aminenafkha/RiderProjects/Softylines.OrleansApp/Softylines.OrleansApp.Blazor/Softylines.OrleansApp.Blazor.csproj",
+      "projectUniqueName": "/Users/zozza/Downloads/Softylines.OrleansApp/Softylines.OrleansApp.Blazor/Softylines.OrleansApp.Blazor.csproj",
       "projectName": "Softylines.OrleansApp.Blazor",
-      "projectPath": "/Users/aminenafkha/RiderProjects/Softylines.OrleansApp/Softylines.OrleansApp.Blazor/Softylines.OrleansApp.Blazor.csproj",
-      "packagesPath": "/Users/aminenafkha/.nuget/packages/",
-      "outputPath": "/Users/aminenafkha/RiderProjects/Softylines.OrleansApp/Softylines.OrleansApp.Blazor/obj/",
+      "projectPath": "/Users/zozza/Downloads/Softylines.OrleansApp/Softylines.OrleansApp.Blazor/Softylines.OrleansApp.Blazor.csproj",
+      "packagesPath": "/Users/zozza/.nuget/packages/",
+      "outputPath": "/Users/zozza/Downloads/Softylines.OrleansApp/Softylines.OrleansApp.Blazor/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/aminenafkha/.nuget/NuGet/NuGet.Config"
+        "/Users/zozza/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4519,8 +4519,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/aminenafkha/RiderProjects/Softylines.OrleansApp/Softylines.OrleansApp.Abstractions/Softylines.OrleansApp.Abstractions.csproj": {
-              "projectPath": "/Users/aminenafkha/RiderProjects/Softylines.OrleansApp/Softylines.OrleansApp.Abstractions/Softylines.OrleansApp.Abstractions.csproj"
+            "/Users/zozza/Downloads/Softylines.OrleansApp/Softylines.OrleansApp.Abstractions/Softylines.OrleansApp.Abstractions.csproj": {
+              "projectPath": "/Users/zozza/Downloads/Softylines.OrleansApp/Softylines.OrleansApp.Abstractions/Softylines.OrleansApp.Abstractions.csproj"
             }
           }
         }
@@ -4595,7 +4595,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/aminenafkha/.dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/zozza/.dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,25 @@
 ﻿services:
-  softylines.orleansapp.silo:
-    image: softylines.orleansapp.silo 
+  softylines.orleansapp.silo1:
+    image: kambo2
     build:
       context: .
       dockerfile: Softylines.OrleansApp.Silo/Dockerfile
     ports:
-      - 30300:30300
+      - 11111:11111
+      - 30000:30000
+  softylines.orleansapp.silo2:
+    image: kambo2
+    build:
+      context: .
+      dockerfile: Softylines.OrleansApp.Silo/Dockerfile
+    ports:
+      - 11112:11111
+      - 30001:30000
+  softylines.orleansapp.silo3:
+    image: kambo2
+    build:
+      context: .
+      dockerfile: Softylines.OrleansApp.Silo/Dockerfile
+    ports:
+      - 11113:11111
+      - 30002:30000

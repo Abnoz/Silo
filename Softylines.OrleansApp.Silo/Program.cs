@@ -36,18 +36,19 @@ static void StartSilo(string[ ] args)
                 })
                 .Configure<ClusterOptions>(options =>
                 {
-                    options.ClusterId = "dev";
-                    options.ServiceId = "aniss";
+                    options.ClusterId = "devs";
+                    options.ServiceId = "anisss";
                 })
                 .Configure<EndpointOptions>(options =>
                 {
-                    options.AdvertisedIPAddress = IPAddress.Parse("192.168.0.142");
-                    options.SiloPort = 30300;
+                    options.AdvertisedIPAddress = IPAddress.Parse("192.168.0.232");
+                    options.SiloPort = 11111;
                     options.GatewayPort = 30000;
-                    options.SiloListeningEndpoint = new IPEndPoint(IPAddress.Any, 30300);
+                    options.SiloListeningEndpoint = new IPEndPoint(IPAddress.Any, 11111);
                     options.GatewayListeningEndpoint = new IPEndPoint(IPAddress.Any, 30000);
                 })
-                // .ConfigureEndpoints(default, default,  default, listenOnAnyHostAddress: true)
+                .ConfigureEndpoints("192.168.0.232", 11111,
+                    30000, listenOnAnyHostAddress: true)
                 .AddAdoNetGrainStorage(
                         name: "GrainStore",
                         configureOptions: options =>

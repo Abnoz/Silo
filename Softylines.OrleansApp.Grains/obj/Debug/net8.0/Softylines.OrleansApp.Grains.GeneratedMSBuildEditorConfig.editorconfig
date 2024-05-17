@@ -17,6 +17,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Softylines.OrleansApp.Grains
-build_property.ProjectDir = /Users/aminenafkha/RiderProjects/Softylines.OrleansApp/Softylines.OrleansApp.Grains/
+build_property.ProjectDir = /Users/zozza/Downloads/Softylines.OrleansApp/Softylines.OrleansApp.Grains/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
