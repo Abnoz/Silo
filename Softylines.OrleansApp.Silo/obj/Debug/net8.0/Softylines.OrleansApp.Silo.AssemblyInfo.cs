@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Softylines.OrleansApp.Silo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2822af25581b4f7b69b2d27f66d5189de854cfd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ba37df9aaa9e8a9e8bc053135ca1d53276ed441")]
 [assembly: System.Reflection.AssemblyProductAttribute("Softylines.OrleansApp.Silo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Softylines.OrleansApp.Silo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

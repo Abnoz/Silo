@@ -36,8 +36,8 @@ static void StartSilo(string[ ] args)
                 })
                 .Configure<ClusterOptions>(options =>
                 {
-                    options.ClusterId = "devs";
-                    options.ServiceId = "anisss";
+                    options.ClusterId = "one";
+                    options.ServiceId = "test";
                 })
                 .Configure<EndpointOptions>(options =>
                 {
