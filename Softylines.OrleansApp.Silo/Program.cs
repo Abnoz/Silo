@@ -47,7 +47,7 @@ static void StartSilo(string[ ] args)
                     options.SiloListeningEndpoint = new IPEndPoint(IPAddress.Any, 11111);
                     options.GatewayListeningEndpoint = new IPEndPoint(IPAddress.Any, 30000);
                 })
-                .ConfigureEndpoints("192.168.30.52", 11111,
+                .ConfigureEndpoints("192.168.30.43", 11111,
                     30000, listenOnAnyHostAddress: true)
                 .AddAdoNetGrainStorage(
                         name: "GrainStore",
