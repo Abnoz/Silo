@@ -41,7 +41,7 @@ static void StartSilo(string[ ] args)
                 })
                 .Configure<EndpointOptions>(options =>
                 {
-                    options.AdvertisedIPAddress = IPAddress.Parse("192.168.0.232");
+                    options.AdvertisedIPAddress = IPAddress.Parse("192.168.30.43");
                     options.SiloPort = 11111;
                     options.GatewayPort = 30000;
                     options.SiloListeningEndpoint = new IPEndPoint(IPAddress.Any, 11111);
